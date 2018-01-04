@@ -1,0 +1,35 @@
+<suite name="Automation - Suite">
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome.exe" />
+		<classes>
+			<class name="automationFramework.TestCases.CreateCustomerAPITest" />
+			<class name="automationFramework.TestCases.BalanceHistoryTest" />
+			<class name="automationFramework.TestCases.CreateCustomerDBTest" />
+			<class name="automationFramework.TestCases.CreateCustomerTest" />
+			<class name="automationFramework.TestCases.CreateFundingTest" />
+			<class name="automationFramework.TestCases.CreateOrderDBTest" />
+			<class name="automationFramework.TestCases.CreateOrderTest" />
+			<class name="automationFramework.TestCases.CreateUnregistredCustomerTest" />
+			<class name="automationFramework.TestCases.DeleteAddressTest" />
+			<class name="automationFramework.TestCases.DeleteFundingTest" />
+			<class name="automationFramework.TestCases.LinkAccountAPITest" />
+			<class name="automationFramework.TestCases.LinkAccountDBTest" />
+			<class name="automationFramework.TestCases.LinkAccountTest" />
+			<class name="automationFramework.TestCases.NotificationPrefTest" />
+			<class name="automationFramework.TestCases.ResetPasswordTest" />
+			<class name="automationFramework.TestCases.SearchTest" />
+			<class name="automationFramework.TestCases.SearchTest2" />
+			<class name="automationFramework.TestCases.TokenSearchAPITest" />
+			<class name="automationFramework.TestCases.TokenSearchTest" />
+			<class name="automationFramework.TestCases.TravelHistoryTest" />
+			<class name="automationFramework.TestCases.UpdateAddressTest" />
+			<class name="automationFramework.TestCases.UpdateContactTest" />
+			<class name="automationFramework.TestCases.UpdateFundingTest" />
+			<class name="automationFramework.TestCases.EmailTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>
